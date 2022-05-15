@@ -1,7 +1,6 @@
 
 * {
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
   }
 
@@ -10,25 +9,32 @@
 
 header {
 
-    color:royalblue;
+    color:darkblue ;
     display: flex;
     justify-content: space-between;
+    
 }
+
 
 header ul li{
 list-style: none;
 font-size: 24px;
 display: inline;
 padding: 20px 35px;
+color: darkblue;
 }
 
-.sub-title{
-    float:right;
+
+
+
+footer div a {
+    display:flex;
+    display:inline;
+    justify-content: space-between;
+    text-align: right;
 }
 
-.hero{
-    
-background-image: url("Portfolio/assets/images/code-image.jpg") ;
-   
 
-}
+
+
+
