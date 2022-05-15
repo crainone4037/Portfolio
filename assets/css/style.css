@@ -1,3 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
 header {
 
     color:royalblue;
@@ -10,4 +20,15 @@ list-style: none;
 font-size: 24px;
 display: inline;
 padding: 20px 35px;
+}
+
+.sub-title{
+    float:right;
+}
+
+.hero{
+    
+background-image: url("Portfolio/assets/images/code-image.jpg") ;
+   
+
 }
