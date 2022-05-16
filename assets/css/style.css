@@ -1,4 +1,7 @@
 
+
+
+/* properties set for all content */
 * {
     
     box-sizing: border-box;
@@ -14,8 +17,11 @@ header {
     justify-content: space-between;
     
 }
+body{
+    border-right: 30px;
+}
 
-
+/* ul navigation styling */
 header ul li{
 list-style: none;
 font-size: 24px;
@@ -26,6 +32,7 @@ color: darkblue;
 
 
 
+/* footer styling */
 
 footer div a {
     display:flex;
@@ -34,6 +41,28 @@ footer div a {
     text-align: right;
 }
 
+.intro div{
+    display:flex;
+   padding-right: 35px;
+
+    
+}
+/* About Me title properties */
+
+.ab-title h1{
+    
+    justify-content: space-between;
+    padding-right: 40px;
+    border-right: solid blue;
+   
+}
+
+.main-description{
+    justify-content: space-around;
+    padding-top: 150px;
+
+    
+}
 
 
 
