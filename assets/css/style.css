@@ -5,6 +5,7 @@
 * {
     
     box-sizing: border-box;
+    background-color:lightblue;
   }
 
 
@@ -12,14 +13,27 @@
 
 header {
 
-    color:darkblue ;
+    color:cornsilk ;
     display: flex;
     justify-content: space-between;
     
+    
 }
-body{
-    border-right: 30px;
+
+.hero-section{
+    background-image: URL("Portfolio/assets/css/images/code.jpg");
+    
 }
+
+
+   
+    
+
+
+
+
+
+
 
 /* ul navigation styling */
 header ul li{
@@ -27,8 +41,23 @@ list-style: none;
 font-size: 24px;
 display: inline;
 padding: 20px 35px;
-color: darkblue;
+color:whitesmoke;
 }
+header ul li a{
+    color: cornsilk;
+}
+header nav a:hover{
+    color:blue;
+}
+
+body p{
+    
+    position: relative;
+    line-height: 1.7;
+    vertical-align: auto;
+
+}
+
 
 
 
@@ -40,10 +69,15 @@ footer div a {
     justify-content: space-between;
     text-align: right;
 }
+section.intro{
+    padding-top: 200px;
+    display: block;
+}
 
 .intro div{
     display:flex;
-   padding-right: 35px;
+
+  
 
     
 }
@@ -52,17 +86,66 @@ footer div a {
 .ab-title h1{
     
     justify-content: space-between;
-    padding-right: 40px;
-    border-right: solid blue;
+    padding-right: 35px;
+    border-right: solid blue 8px;
+    border-radius: 2px;
+    border-spacing: 20px;
+    font-size: 38px;
+
+   
    
 }
 
 .main-description{
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 150px;
+    
+
 
     
 }
+.ab-description{
+    display:flex;
+    flex-direction: column;
+}
+.ab-description{
+    padding-left: 20px;
+    display:inline-block;
+}
+
+.intro div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.work-title{
+    
+    border-right: solid blue 8px;
+    border-radius: 2px;
+    border-spacing: 20px;
+    font-size: 38px;
+}
+
+
+
+.contact-title{
+    font-size: 38px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
