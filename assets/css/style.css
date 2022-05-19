@@ -5,7 +5,8 @@
 * {
     
     box-sizing: border-box;
-    background-color:lightblue;
+    background-color:burlywood;
+    
   }
 
 
@@ -19,9 +20,40 @@ header {
     
     
 }
+.main-description h1{
+    padding-right: 100px;
+
+
+}
+.main-description p{
+    text-align:right;
+    
+
+}
+section.intro{
+    padding-top: 200px;
+    display: block;
+}
+
+.intro{
+    display:flex;
+
+}
+.intro p{
+    text-align: center;
+}
+.intro h1{
+    font-size: 38px;
+    text-align: left;
+}
+.intro h1,p{
+    display:inline;
+    
+}
+
 
 .hero-section{
-    background-image: URL("Portfolio/assets/css/images/code.jpg");
+   background-image: URL("Portfolio/assets/css/images/code.jpg");
     
 }
 
@@ -47,7 +79,7 @@ header ul li a{
     color: cornsilk;
 }
 header nav a:hover{
-    color:blue;
+    color:darkred;
 }
 
 body p{
@@ -69,64 +101,27 @@ footer div a {
     justify-content: space-between;
     text-align: right;
 }
-section.intro{
-    padding-top: 200px;
-    display: block;
-}
 
-.intro div{
-    display:flex;
 
-  
 
-    
-}
 /* About Me title properties */
 
-.ab-title h1{
-    
-    justify-content: space-between;
-    padding-right: 35px;
-    border-right: solid blue 8px;
-    border-radius: 2px;
-    border-spacing: 20px;
-    font-size: 38px;
 
-   
-   
-}
 
 .main-description{
-    justify-content: space-between;
-    padding-top: 150px;
-    
-
-
-    
-}
-.ab-description{
-    display:flex;
-    flex-direction: column;
-}
-.ab-description{
-    padding-left: 20px;
-    display:inline-block;
-}
-
-.intro div{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: inline;
 
 }
 
-.work-title{
-    
-    border-right: solid blue 8px;
-    border-radius: 2px;
-    border-spacing: 20px;
+
+.work-title h1{
+    width: 100px;
+    height:100px;
+    border-right: darkred;
     font-size: 38px;
+
 }
+
 
 
 
@@ -134,8 +129,47 @@ section.intro{
     font-size: 38px;
 
 }
+.reach-out{
+    display:flex;
+    justify-content: space-between;
+}
 
+.work-title{
+    text-align: top;
+    
+}
+.work-title h1{
+    border-right: solid 5px darkred;
+}
+.content{ 
+height:500px;
+  width: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  
 
+}
+
+.content h1{
+    text-align: left;
+}
+.small-box{
+    outline: solid red;
+    width:100px;
+    }
+.content.small-box div{
+    outline: solid red;
+    width: 80px;
+    
+}
+
+.content h1{
+    text-align: center;
+
+}
 
 
 
